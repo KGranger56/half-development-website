@@ -1,10 +1,10 @@
 import React from "react";
-import "./about.css";
+import "./pastProjects.css";
 
-const About = () => {
+const PastProjects = () => {
   return (
-    <div className="about">
-      <h1>About Halfdevelopment</h1>
+    <div className="pastProjects">
+      <h1>Projects completed by our team</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -13,8 +13,14 @@ const About = () => {
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
         officia deserunt mollit anim id est laborum.
       </p>
+      <div className="container">
+        <div className="row1">
+          <div className="beeApp">YourBee</div>
+          <div className="fitnessApp">YourFitness</div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default About;
+export default PastProjects;

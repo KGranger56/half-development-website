@@ -1,0 +1,43 @@
+.team {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+p {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  padding: 4vh;
+}
+
+[class^="row"] {
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+  justify-content: space-around;
+}
+
+[class^="col"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1vh solid var(--main-action-color);
+  border-radius: 10px;
+  padding: 2vh;
+}
+
+ul {
+  list-style-type: none;
+  flex-direction: column;
+}
+
+h4 {
+  margin: 0 auto;
+  padding-bottom: 5px;
+}

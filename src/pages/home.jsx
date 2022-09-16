@@ -1,9 +1,10 @@
 import React from "react";
+import "./home.css";
 
 const Home = () => {
   return (
     <div className="home">
-      <h1>Half Development Homepage</h1>
+      <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud

@@ -1,0 +1,6 @@
+.application {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--main-text-color);
+}
