@@ -11,23 +11,26 @@ function Navbar() {
           <li>
             <Link to="/home" className="navHome">
               <div className="navBrand">
-                <img
-                  src="https://i.lensdump.com/i/1SALSK.jpg"
-                  alt="1SALSK.jpg"
-                  border="0"
-                  className="navLogo"
-                />
+                <li className="navImg">
+                  <img
+                    src="https://i.lensdump.com/i/1z5h0v.png"
+                    alt="1z5h0v.png"
+                    border="0"
+                    className="navLogo"
+                  />
+                </li>
+                <li className="logoName">Halfdevelopment</li>
               </div>
             </Link>
           </li>
           <li>
-            <Link to="/about" className="navAbout">
-              About
+            <Link to="/home" className="navHome">
+              Home
             </Link>
           </li>
           <li>
-            <Link to="/application" className="navApplicaiton">
-              Application
+            <Link to="/apps" className="navApps">
+              Apps
             </Link>
           </li>
           <li>
@@ -36,13 +39,13 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/products" className="navProducts">
-              Products
+            <Link to="/work" className="navWork">
+              Work
             </Link>
           </li>
           <li>
-            <Link to="/pastProjects" className="navPastProjects">
-              Projects
+            <Link to="/contact" className="navContactUs">
+              <button className="navContact">Contact Us</button>
             </Link>
           </li>
         </ul>

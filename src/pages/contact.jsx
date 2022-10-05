@@ -1,10 +1,10 @@
 import React from "react";
-import "./about.css";
+import "./contact.css";
 
-const About = () => {
+const Contact = () => {
   return (
-    <div className="about">
-      <h1>About Halfdevelopment</h1>
+    <div className="contact">
+      <h1>Contact Us</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -17,4 +17,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

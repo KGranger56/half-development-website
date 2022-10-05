@@ -1,13 +1,14 @@
 :root {
   --main-background-color: #242831;
-  --main-text-color: #fdfdfd;
+  --main-text-color: black;
   --main-action-color: #ea4e40;
 }
 
 .app {
-  background-color: var(--main-background-color);
+  font-family: "Inter", sans-serif;
   padding-top: 35px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+  color: #232a34;
 }

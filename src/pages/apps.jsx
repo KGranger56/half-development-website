@@ -1,10 +1,10 @@
 import React from "react";
-import "./products.css";
+import "./apps.css";
 
-const Products = () => {
+const Apps = () => {
   return (
-    <div className="products">
-      <h1>Products we offer</h1>
+    <div className="apps">
+      <h1>Apps</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -13,8 +13,14 @@ const Products = () => {
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
         officia deserunt mollit anim id est laborum.
       </p>
+      <div className="container">
+        <div className="row1">
+          <div className="beeApp">YourBee</div>
+          <div className="fitnessApp">YourFitness</div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Products;
+export default Apps;

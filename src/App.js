@@ -3,11 +3,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import Navbar from "./components/navbar";
-import About from "./pages/about";
-import Application from "./pages/application";
+import Apps from "./pages/apps";
 import Home from "./pages/home";
-import PastProjects from "./pages/pastProjects";
-import Products from "./pages/products";
+import Contact from "./pages/contact";
+import Work from "./pages/work";
 import Team from "./pages/team";
 
 function App() {
@@ -18,11 +17,11 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/home" element={<Home />} exact />
-            <Route path="/about" element={<About />} />
-            <Route path="/application" element={<Application />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/apps" element={<Apps />} />
             <Route path="/team" element={<Team />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/pastProjects" element={<PastProjects />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </BrowserRouter>

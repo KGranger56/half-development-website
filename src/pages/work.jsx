@@ -1,10 +1,10 @@
 import React from "react";
-import "./application.css";
+import "./work.css";
 
-const Application = () => {
+const Work = () => {
   return (
-    <div className="application">
-      <h1>Applications</h1>
+    <div className="work">
+      <h1>Previous Work</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -17,4 +17,4 @@ const Application = () => {
   );
 };
 
-export default Application;
+export default Work;
