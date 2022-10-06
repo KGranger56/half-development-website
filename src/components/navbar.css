@@ -2,7 +2,8 @@ div.navbar {
   display: flex;
   flex-direction: row;
   padding-top: 5px;
-  width: 100%;
+  max-width: 100%;
+  padding-right: 58px;
 }
 
 li,
@@ -43,23 +44,24 @@ nav {
 }
 
 .navLogo {
-  max-width: 89px;
+  max-width: 94px;
 }
 
 li.logoName {
   font-size: 32px;
   color: #232a34;
   font-weight: 700;
-  margin-top: 21px;
+  margin-top: 26px;
+  margin-left: -11px;
 }
 
 .navContact {
   border-radius: 14px;
-  width: 183px;
   height: 56px;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 700;
   color: #ffffff;
   background-color: var(--main-action-color);
   border: none;
+  padding: 0px 12px;
 }

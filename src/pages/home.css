@@ -1,29 +1,33 @@
 .home {
-  display: block;
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
 }
 
 .home h1 {
-  font-size: 75px;
+  font-size: 79px;
   line-height: 83px;
   font-weight: 800;
   margin-top: 258px;
+  margin-bottom: 4px;
 }
 
 .home .title {
   color: var(--main-action-color);
 }
 
-.home p {
+p.companyInfo {
   font-weight: 500;
   width: 581px;
   height: 42px;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 21px;
+  margin: 0 0;
 }
 
 .home .ourTeam {
-  width: 232px;
+  margin-top: 23px;
+  width: 240px;
   height: 86px;
   border-radius: 10px;
   font-size: 40px;
@@ -31,4 +35,33 @@
   font-weight: 800;
   color: white;
   background-color: black;
+}
+
+.home .eclipse {
+  display: flex;
+  margin-left: 83px;
+  margin-top: 220px;
+  max-width: 762px;
+}
+
+.home .phone {
+  display: flex;
+  margin-left: 179px;
+  margin-top: -697px;
+  max-width: 515px;
+}
+
+p.makeYours {
+  flex-direction: column;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -665px;
+  margin-left: 210px;
+  max-width: 665px;
+  width: 100%;
+}
+
+.phoneText {
+  flex-direction: row;
+  color: var(--main-action-color);
 }
