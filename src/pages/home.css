@@ -4,12 +4,17 @@
   margin: 0 auto;
 }
 
+.home .col-2,
+.col-1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .home h1 {
-  font-size: 79px;
-  line-height: 83px;
+  font-size: 8em;
   font-weight: 800;
   margin-top: 258px;
-  margin-bottom: 4px;
+  margin-bottom: 0em;
 }
 
 .home .title {
@@ -18,47 +23,41 @@
 
 p.companyInfo {
   font-weight: 500;
-  width: 581px;
-  height: 42px;
-  font-size: 21px;
-  line-height: 21px;
+  font-size: 2.1em;
   margin: 0 0;
 }
 
 .home .ourTeam {
-  margin-top: 23px;
-  width: 240px;
-  height: 86px;
+  margin-top: 0.5em;
   border-radius: 10px;
-  font-size: 40px;
-  line-height: 43px;
+  font-size: 3.9em;
   font-weight: 800;
   color: white;
   background-color: black;
+  padding: 0.2em 0.5em;
+  max-width: 6.5em;
 }
 
 .home .eclipse {
   display: flex;
-  margin-left: 83px;
-  margin-top: 220px;
-  max-width: 762px;
+  margin-left: 21em;
+  margin-top: 13em;
+  width: 56em;
 }
 
 .home .phone {
   display: flex;
-  margin-left: 179px;
-  margin-top: -697px;
-  max-width: 515px;
+  margin-left: 32.5em;
+  margin-top: -62em;
+  width: 33em;
 }
 
 p.makeYours {
   flex-direction: column;
-  font-size: 48px;
+  font-size: 4em;
   font-weight: 700;
-  margin-top: -665px;
-  margin-left: 210px;
-  max-width: 665px;
-  width: 100%;
+  margin-top: -13em;
+  margin-left: 8.8em;
 }
 
 .phoneText {
