@@ -9,8 +9,8 @@ const Home = () => {
         <span className="title">Halfdevelopment.</span>
       </h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />
-        diam nonumy eirmod tempor invidunt
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod
+        tempor invidunt
       </p>
       <button className="ourTeam">Our Team</button>
     </div>

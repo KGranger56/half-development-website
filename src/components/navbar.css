@@ -12,6 +12,7 @@ a {
   color: var(--main-text-color);
   display: flex;
   margin: 0 auto;
+  margin-left: 0px;
 }
 
 ul {
@@ -42,9 +43,6 @@ nav {
 }
 
 .navLogo {
-  display: flex;
-  margin: 0 auto;
-  margin-left: 0px;
   max-width: 89px;
 }
 
@@ -53,4 +51,15 @@ li.logoName {
   color: #232a34;
   font-weight: 700;
   margin-top: 21px;
+}
+
+.navContact {
+  border-radius: 14px;
+  width: 183px;
+  height: 56px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--main-action-color);
+  border: none;
 }

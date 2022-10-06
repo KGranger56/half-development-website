@@ -1,3 +1,12 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 0 auto;
+  min-height: 100%;
+  margin: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  background: url("./images/background\ image.png") left bottom no-repeat fixed;
+  background-size: 900px;
 }
