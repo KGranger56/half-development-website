@@ -12,24 +12,8 @@
   color: #232a34;
 }
 
-/*@media (max-width: 1920px) {
-  .navLogo {
-    max-width: 4em;
+@media screen and (max-width: 992px) {
+  .app {
+    margin-left: 4em;
   }
-
-  li.logoName {
-    font-size: 1.2em;
-    margin-top: 1.1em;
-    margin-left: -0.4em;
-  }
-
-  .navList {
-    font-size: 2em;
-  }
-
-  .navContact {
-    font-size: 1.5em;
-  }
-  div.navbar {
-  }
-}*/
+}

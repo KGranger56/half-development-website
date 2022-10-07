@@ -7,3 +7,27 @@ body {
   background: url("./images/background\ image.png") left bottom no-repeat fixed;
   background-size: 95em;
 }
+
+@media screen and (max-width: 1920px) {
+  body {
+    background-size: 61em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-size: 34em;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: 34em;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 0px) {
+}

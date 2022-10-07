@@ -64,3 +64,95 @@ p.makeYours {
   flex-direction: row;
   color: var(--main-action-color);
 }
+
+@media (max-width: 1920px) {
+  .home h1 {
+    font-size: 6.5em;
+  }
+
+  .home .eclipse {
+    margin-left: 21em;
+    margin-top: 13em;
+    width: 41em;
+  }
+
+  .home .ourTeam {
+    font-size: 3.2em;
+  }
+
+  .home .phone {
+    margin-left: 28.5em;
+    margin-top: -48em;
+    width: 26em;
+  }
+
+  p.companyInfo {
+    font-size: 1.7em;
+  }
+
+  p.makeYours {
+    font-size: 3em;
+    margin-left: 10.3em;
+    margin-top: -14em;
+  }
+}
+
+@media (max-width: 1280px) {
+  .home h1 {
+    margin-top: 215px;
+  }
+
+  .home .eclipse {
+    margin-left: 19.4em;
+  }
+
+  .home .phone {
+    margin-left: 26.9em;
+  }
+
+  p.makeYours {
+    margin-left: 9.8em;
+  }
+}
+
+@media (max-width: 992px) {
+  .home h1 {
+    margin-top: 112px;
+    font-size: 5em;
+  }
+
+  .home .eclipse {
+    margin-top: 7em;
+    margin-left: 6.4em;
+    width: 27em;
+  }
+
+  .home .phone {
+    margin-left: 11.5em;
+    margin-top: -31em;
+    width: 17em;
+  }
+
+  .home .ourTeam {
+    font-size: 2.5em;
+  }
+
+  p.companyInfo {
+    font-size: 1.4em;
+  }
+
+  p.makeYours {
+    margin-left: 6.1em;
+    font-size: 2.1em;
+    margin-top: -13em;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 0px) {
+}
