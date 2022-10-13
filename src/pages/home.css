@@ -122,19 +122,20 @@ p.makeYours {
   }
 
   .home .eclipse {
-    margin-top: 7em;
-    margin-left: 6.4em;
+    margin-top: 29em;
+    margin-left: -15.6em;
     width: 27em;
   }
 
   .home .phone {
-    margin-left: 11.5em;
+    margin-left: -10.4em;
     margin-top: -31em;
     width: 17em;
   }
 
   .home .ourTeam {
-    font-size: 2.5em;
+    margin-left: -7.3em;
+    margin-top: -13em;
   }
 
   p.companyInfo {
@@ -149,6 +150,49 @@ p.makeYours {
 }
 
 @media (max-width: 768px) {
+  .home {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 6em;
+  }
+
+  .home h1 {
+    flex-direction: column;
+    margin-top: 51px;
+    font-size: 5em;
+  }
+
+  .home .eclipse {
+    margin-top: -12em;
+    margin-left: 22.4em;
+  }
+
+  .home .phone {
+    margin-left: 27.5em;
+    margin-top: -31em;
+    width: 17em;
+  }
+
+  .home .ourTeam {
+    font-size: 2.4em;
+    margin-left: -0.3em;
+    margin-top: 2em;
+  }
+
+  p.companyInfo {
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-left: 0em;
+    max-width: 50%;
+    text-align: left;
+  }
+
+  p.makeYours {
+    margin-right: -10.9em;
+    font-size: 1.8em;
+    margin-top: -14em;
+  }
 }
 
 @media (max-width: 576px) {

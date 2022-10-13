@@ -10,8 +10,8 @@ const Home = () => {
           <span className="title">Halfdevelopment.</span>
         </h1>
         <p className="companyInfo">
-          Lorem ipsum dolor sit amet, consectetur sadipiscing elit, sed <br />
-          diam nonumy eirmod tempor invidunt
+          Lorem ipsum dolor sit amet, consectetur sadipiscing elit, sed diam nonumy eirmod
+          tempor invidunt
         </p>
         <button className="ourTeam">Our Team</button>
       </div>

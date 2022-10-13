@@ -104,6 +104,22 @@ li.logoName {
 }
 
 @media (max-width: 768px) {
+  div.navbar {
+    margin-right: -10em;
+  }
+  .navLogo {
+    max-width: 3.5em;
+  }
+
+  li.logoName {
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-left: -0.4em;
+  }
+
+  .navList {
+    font-size: 1.5em;
+  }
 }
 
 @media (max-width: 576px) {

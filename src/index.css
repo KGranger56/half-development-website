@@ -22,7 +22,8 @@ body {
 
 @media (max-width: 768px) {
   body {
-    background-size: 34em;
+    background-size: 48em;
+    margin-bottom: 16em;
   }
 }
 
